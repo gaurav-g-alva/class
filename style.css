@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav1 h3{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 7px 10px;
+    border-radius: 50px;
+
+}
+#nav2{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#nav button{
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 50px;
+    
+}
+#btn{
+    color: #fff;
+    border: none;
+    background-color: orangered;
+}
+#main>h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
